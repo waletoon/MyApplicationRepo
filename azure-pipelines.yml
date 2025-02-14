@@ -33,7 +33,7 @@ stages:
     - task: Maven@4
       displayName: 'Maven Package'
       inputs:
-        mavenPomFile: 'pom.xml'
+        mavenPomFile: 'MyWebApp/pom.xml'
         goals: 'clean package'
 
     - task: CopyFiles@2
